@@ -2,17 +2,17 @@
 
 ---
 ![Version](https://img.shields.io/badge/Version-2.1-brightgreen.svg)
-### Que és:
+### What this does:
 
-Herramienta desarrollada en C# con la cual podremos inyectar / enviar nuestras cargas "payloads" a nuestra consola PS4 con exploit, y es compatible con todos los firmware con exploit. Recordad que los payloads o cargas utiles son archivos .bin. Para usarla simplemente necesitas habilitar ejecuccion de codigo en tu PS4 accediendo al webkit o exploit y despues enviar el payload mediante la aplicación.
+Tool developed in C # with which can inject / send payloads to PS4 console with exploit, and it is compatible with all firmware with exploit. Remember that payloads or useful loads are .bin files. To use it you simply need to enable code execution on your PS4 by accessing the webkit or exploit and then send the payload through the application.
 
 ![Alt-payload](https://i.imgur.com/fSutwyE.png)
 
 ---
 
-### Compatibilidad:
+### Compatibility:
 
-Actualmente soporta todos los Firmwares con Kernel Exploit de Playstation 4
+Currently supports all Firmware with Kernel Exploit from Playstation 4
 
 - 1.76
 - 4.05
@@ -30,6 +30,6 @@ Actualmente soporta todos los Firmwares con Kernel Exploit de Playstation 4
 
 ---
 
-### Compilar:
+### Compile:
 
-*Necesitas tener visual studio 2015 o superior para poder compilar, mejorar o modificar este repositorio
+*You need to have visual studio 2015 or higher to be able to compile, improve or modify this repository

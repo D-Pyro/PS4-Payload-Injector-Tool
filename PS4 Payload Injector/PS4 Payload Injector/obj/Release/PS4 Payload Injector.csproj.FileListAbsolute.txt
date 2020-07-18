@@ -1,0 +1,18 @@
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\bin\Release\PS4 Payload Injector.exe.config
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\bin\Release\PS4 Payload Injector.exe
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\bin\Release\PS4 Payload Injector.pdb
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\bin\Release\DevExpress.BonusSkins.v16.2.dll
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\bin\Release\DevExpress.Data.v16.2.dll
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\bin\Release\DevExpress.Printing.v16.2.Core.dll
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\bin\Release\DevExpress.Sparkline.v16.2.Core.dll
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\bin\Release\DevExpress.Utils.v16.2.dll
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\bin\Release\DevExpress.XtraEditors.v16.2.dll
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\bin\Release\PS4Lib.dll
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\obj\Release\PS4 Payload Injector.csprojAssemblyReference.cache
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\obj\Release\PS4_Payload_Injector.Form1.resources
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\obj\Release\PS4_Payload_Injector.Properties.Resources.resources
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\obj\Release\PS4 Payload Injector.csproj.GenerateResource.cache
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\obj\Release\PS4 Payload Injector.csproj.CoreCompileInputs.cache
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\obj\Release\PS4 Payload Injector.csproj.CopyComplete
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\obj\Release\PS4 Payload Injector.exe
+D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\obj\Release\PS4 Payload Injector.pdb
