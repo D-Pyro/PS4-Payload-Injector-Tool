@@ -16,3 +16,21 @@ D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\o
 D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\obj\Debug\PS4 Payload Injector.csproj.CopyComplete
 D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\obj\Debug\PS4 Payload Injector.exe
 D:\Desktop\PS4-Payload-Injector-Tool\PS4 Payload inyector\PS4 Payload Injector\obj\Debug\PS4 Payload Injector.pdb
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\bin\Debug\PS4 Payload Injector.exe.config
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\bin\Debug\PS4 Payload Injector.exe
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\bin\Debug\PS4 Payload Injector.pdb
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\bin\Debug\DevExpress.BonusSkins.v16.2.dll
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\bin\Debug\DevExpress.Data.v16.2.dll
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\bin\Debug\PS4Lib.dll
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\obj\Debug\PS4 Payload Injector.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\obj\Debug\PS4_Payload_Injector.Form1.resources
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\obj\Debug\PS4_Payload_Injector.Properties.Resources.resources
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\obj\Debug\PS4 Payload Injector.csproj.GenerateResource.cache
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\obj\Debug\PS4 Payload Injector.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\obj\Debug\PS4 Payload Injector.csproj.CopyComplete
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\obj\Debug\PS4 Payload Injector.exe
+D:\Documents\Visual Studio 2019\Projects\PS4-Payload-Injector-Tool\PS4 Payload Injector\PS4 Payload Injector\obj\Debug\PS4 Payload Injector.pdb

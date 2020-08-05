@@ -35,9 +35,14 @@
             this.rb176 = new System.Windows.Forms.RadioButton();
             this.rb405 = new System.Windows.Forms.RadioButton();
             this.rb455 = new System.Windows.Forms.RadioButton();
+            this.mButton5 = new MButton();
+            this.mButton4 = new MButton();
+            this.btconectar = new MButton();
             this.puertotxt = new System.Windows.Forms.TextBox();
             this.iptxt = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.mButton3 = new MButton();
+            this.mButton2 = new MButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblestado = new System.Windows.Forms.Label();
@@ -51,11 +56,6 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.mButton3 = new MButton();
-            this.mButton2 = new MButton();
-            this.mButton5 = new MButton();
-            this.mButton4 = new MButton();
-            this.btconectar = new MButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -165,6 +165,39 @@
             this.rb455.UseVisualStyleBackColor = true;
             this.rb455.CheckedChanged += new System.EventHandler(this.rb455_CheckedChanged);
             // 
+            // mButton5
+            // 
+            this.mButton5.ForeColor = System.Drawing.Color.White;
+            this.mButton5.Location = new System.Drawing.Point(24, 170);
+            this.mButton5.Margin = new System.Windows.Forms.Padding(4);
+            this.mButton5.Name = "mButton5";
+            this.mButton5.Size = new System.Drawing.Size(448, 42);
+            this.mButton5.TabIndex = 7;
+            this.mButton5.Text = "Guardar IP y Puerto";
+            this.mButton5.Click += new System.EventHandler(this.mButton5_Click);
+            // 
+            // mButton4
+            // 
+            this.mButton4.ForeColor = System.Drawing.Color.White;
+            this.mButton4.Location = new System.Drawing.Point(272, 122);
+            this.mButton4.Margin = new System.Windows.Forms.Padding(4);
+            this.mButton4.Name = "mButton4";
+            this.mButton4.Size = new System.Drawing.Size(200, 36);
+            this.mButton4.TabIndex = 6;
+            this.mButton4.Text = "Info Puertos";
+            this.mButton4.Click += new System.EventHandler(this.mButton4_Click);
+            // 
+            // btconectar
+            // 
+            this.btconectar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btconectar.Location = new System.Drawing.Point(272, 79);
+            this.btconectar.Margin = new System.Windows.Forms.Padding(4);
+            this.btconectar.Name = "btconectar";
+            this.btconectar.Size = new System.Drawing.Size(200, 36);
+            this.btconectar.TabIndex = 5;
+            this.btconectar.Text = "Conectar";
+            this.btconectar.Click += new System.EventHandler(this.mButton1_Click);
+            // 
             // puertotxt
             // 
             this.puertotxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
@@ -200,6 +233,29 @@
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Seleccionar y Enviar Payload";
+            // 
+            // mButton3
+            // 
+            this.mButton3.Enabled = false;
+            this.mButton3.ForeColor = System.Drawing.Color.White;
+            this.mButton3.Location = new System.Drawing.Point(27, 89);
+            this.mButton3.Margin = new System.Windows.Forms.Padding(4);
+            this.mButton3.Name = "mButton3";
+            this.mButton3.Size = new System.Drawing.Size(445, 38);
+            this.mButton3.TabIndex = 6;
+            this.mButton3.Text = "Enviar Payload";
+            this.mButton3.Click += new System.EventHandler(this.mButton3_Click);
+            // 
+            // mButton2
+            // 
+            this.mButton2.ForeColor = System.Drawing.Color.White;
+            this.mButton2.Location = new System.Drawing.Point(27, 43);
+            this.mButton2.Margin = new System.Windows.Forms.Padding(4);
+            this.mButton2.Name = "mButton2";
+            this.mButton2.Size = new System.Drawing.Size(445, 38);
+            this.mButton2.TabIndex = 6;
+            this.mButton2.Text = "Buscar Payload";
+            this.mButton2.Click += new System.EventHandler(this.mButton2_Click);
             // 
             // pictureBox1
             // 
@@ -257,8 +313,7 @@
             // 
             // openFileDialog1
             // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            this.openFileDialog1.Filter = "Bin file (*.BIN)|*.BIN";
+            this.openFileDialog1.Filter = "Bin file (*.BIN)|*.BIN|ELF file (*.ELF)|*.ELF";
             // 
             // pictureBox2
             // 
@@ -353,61 +408,6 @@
             this.pictureBox5.TabIndex = 26;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
-            // 
-            // mButton3
-            // 
-            this.mButton3.ForeColor = System.Drawing.Color.White;
-            this.mButton3.Location = new System.Drawing.Point(27, 89);
-            this.mButton3.Margin = new System.Windows.Forms.Padding(4);
-            this.mButton3.Name = "mButton3";
-            this.mButton3.Size = new System.Drawing.Size(445, 38);
-            this.mButton3.TabIndex = 6;
-            this.mButton3.Text = "Enviar Payload";
-            this.mButton3.Click += new System.EventHandler(this.mButton3_Click);
-            // 
-            // mButton2
-            // 
-            this.mButton2.ForeColor = System.Drawing.Color.White;
-            this.mButton2.Location = new System.Drawing.Point(27, 43);
-            this.mButton2.Margin = new System.Windows.Forms.Padding(4);
-            this.mButton2.Name = "mButton2";
-            this.mButton2.Size = new System.Drawing.Size(445, 38);
-            this.mButton2.TabIndex = 6;
-            this.mButton2.Text = "Buscar Payload";
-            this.mButton2.Click += new System.EventHandler(this.mButton2_Click);
-            // 
-            // mButton5
-            // 
-            this.mButton5.ForeColor = System.Drawing.Color.White;
-            this.mButton5.Location = new System.Drawing.Point(24, 170);
-            this.mButton5.Margin = new System.Windows.Forms.Padding(4);
-            this.mButton5.Name = "mButton5";
-            this.mButton5.Size = new System.Drawing.Size(448, 42);
-            this.mButton5.TabIndex = 7;
-            this.mButton5.Text = "Guardar IP y Puerto";
-            this.mButton5.Click += new System.EventHandler(this.mButton5_Click);
-            // 
-            // mButton4
-            // 
-            this.mButton4.ForeColor = System.Drawing.Color.White;
-            this.mButton4.Location = new System.Drawing.Point(272, 122);
-            this.mButton4.Margin = new System.Windows.Forms.Padding(4);
-            this.mButton4.Name = "mButton4";
-            this.mButton4.Size = new System.Drawing.Size(200, 36);
-            this.mButton4.TabIndex = 6;
-            this.mButton4.Text = "Info Puertos";
-            this.mButton4.Click += new System.EventHandler(this.mButton4_Click);
-            // 
-            // btconectar
-            // 
-            this.btconectar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btconectar.Location = new System.Drawing.Point(272, 79);
-            this.btconectar.Margin = new System.Windows.Forms.Padding(4);
-            this.btconectar.Name = "btconectar";
-            this.btconectar.Size = new System.Drawing.Size(200, 36);
-            this.btconectar.TabIndex = 5;
-            this.btconectar.Text = "Conectar";
-            this.btconectar.Click += new System.EventHandler(this.mButton1_Click);
             // 
             // Form1
             // 

@@ -24,7 +24,7 @@ namespace PS4_Payload_Injector
         {
             //DevExpress.XtraEditors.XtraMessageBox.Show("App v2 Desarrollada por TheWizWiki");
             iptxt.Text = ini.IniReadValue("ps4", "ip");//lee y deja la IP del .ini
-            puertotxt.Text = ini.IniReadValue("ps4", "puerto");//lee y deja puesto el puerto del .ini
+            puertotxt.Text = ini.IniReadValue("ps4", "port");//lee y deja puesto el puerto del .ini
             groupBox1.Text = "Connection";
             btconectar.Text = "Connect";
             mButton4.Text = "Port info";
@@ -41,18 +41,18 @@ namespace PS4_Payload_Injector
         {
             if (iptxt.Text == "")//Aqui se puede poner la IP de public static string IP "192.168.178.30"
             {
-                MessageBox.Show("introduce la ip de tu PS4");
+                MessageBox.Show("Enter PS4 IP");
             }
             else
             {
-                PS4.Notify(222, "PS4 Inyector Conectado :)");
+                PS4.Notify(222, "PS4 Connected :)");
                 bool result = Connect2PS4(iptxt.Text, puertotxt.Text);
-                lblestado.Text = "Conectado";
+                lblestado.Text = "Connected";
                 lblestado.ForeColor = Color.LimeGreen;
                 btconectar.ForeColor = Color.LimeGreen;
                 if (!result)
                 {
-                    lblestado.Text = "Fallo!";
+                    lblestado.Text = "Failed!";
                     lblestado.ForeColor = Color.Red;
                     MessageBox.Show("Error\n" + Exception);
                 }
@@ -99,39 +99,47 @@ namespace PS4_Payload_Injector
             {
                 path = openFileDialog1.FileName;
                 mButton2.Text = path;
+                mButton3.Enabled = true;
             }
         }
 
         private void mButton3_Click(object sender, EventArgs e)
         {
-            try
+            if (lblestado.Text == "Connected")
             {
-                SendPayload(path);              
+                try
+                {
+                    SendPayload(path);
+                }
+                catch (Exception ex)
+                {
+                    lblenviado.Text = "Error";
+                    lblenviado.ForeColor = Color.Red;
+                    MessageBox.Show("Error sending payload!\n" + ex);
+                }
+                try
+                {
+                    DisconnectPayload();
+                    lblenviado.Text = "Sent";
+                    lblenviado.ForeColor = Color.LimeGreen;
+                    MessageBox.Show("Payload sent!");
+                }
+                catch (Exception ex)
+                {
+                    lblenviado.Text = "Error";
+                    lblenviado.ForeColor = Color.Red;
+                    MessageBox.Show("Error Disconnecting!\n" + ex);
+                }
             }
-            catch (Exception ex)
+            else
             {
-                lblenviado.Text = "Error";
-                lblenviado.ForeColor = Color.Red;
-                MessageBox.Show("Error sending payload!\n" + ex);
-            }
-            try
-            {
-                DisconnectPayload();
-                lblenviado.Text = "Sent";
-                lblenviado.ForeColor = Color.LimeGreen;
-                MessageBox.Show("Payload sent!");
-            }
-            catch (Exception ex)
-            {
-                lblenviado.Text = "Error";
-                lblenviado.ForeColor = Color.Red;
-                MessageBox.Show("Error Disconnecting!\n" + ex);
+                MessageBox.Show("Not Connected", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void mButton4_Click(object sender, EventArgs e)
         {
-            DevExpress.XtraEditors.XtraMessageBox.Show("Ports according to Firmware \n\nPort for 1.76 is 9023 \nPort for 4.05 is 9020 \nPort for 4.55 is 9020 \nPort for 5.05 is 9020 \nPort for 6.72 is 9020");
+            DevExpress.XtraEditors.XtraMessageBox.Show("Ports according to Firmware \n\nPort for 1.76 is 9023 \nPort for 4.05 is 9020 \nPort for 4.55 is 9020 \nPort for 5.05 is 9020 \nPort for 6.72 is 9021");
         }
 
         private void mButton5_Click(object sender, EventArgs e)
@@ -190,7 +198,7 @@ namespace PS4_Payload_Injector
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)//puerto 6.72
         {
-            puertotxt.Text = "9020";
+            puertotxt.Text = "9021";
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)//traduccion al inglés
@@ -266,6 +274,6 @@ namespace PS4_Payload_Injector
             lblestado.Text = "nicht verbunden";
             lblenviado.Text = "nicht gesendet";
             groupBox3.Text = "Sprachauswahl";
-        }        
+        }
     }
 }
